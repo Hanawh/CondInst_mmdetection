@@ -1,9 +1,9 @@
 # Notes
-[CondInst source code : https://github.com/aim-uofa/AdelaiDet](https://github.com/aim-uofa/AdelaiDet)
-[SOLOv2 source code : https://github.com/WXinlong/SOLO](https://github.com/WXinlong/SOLO)
+[CondInst source code : https://github.com/aim-uofa/AdelaiDet](https://github.com/aim-uofa/AdelaiDet)  
+[SOLOv2 source code : https://github.com/WXinlong/SOLO](https://github.com/WXinlong/SOLO)  
 The model with ResNet-50 backbone(1x) achieves 28.7 mAP on COCO val2017 set.
 - 4 gpu due to resource constraints
-- NO FCOS bbox branch and centerness(Maybe because of this mAP drops)
+- NO FCOS bbox branch and centerness (Maybe because of this mAP drops)
 - NO MS
 - NO rel.coord
 - NO auxiliary semantic segmentation
