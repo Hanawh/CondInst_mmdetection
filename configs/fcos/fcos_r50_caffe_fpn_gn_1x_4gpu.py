@@ -23,7 +23,7 @@ model = dict(
         type='FCOSHead',
         num_classes=81,
         in_channels=256,
-        stacked_convs=1,
+        stacked_convs=4,
         feat_channels=256,
         strides=[8, 16, 32, 64, 128],
         loss_cls=dict(
@@ -84,7 +84,7 @@ test_pipeline = [
 ]
 data = dict(
     imgs_per_gpu=4,
-    workers_per_gpu=0,
+    workers_per_gpu=4,
     train=dict(
         type=dataset_type,
         ann_file=data_root + 'annotations/instances_train2017.json',
